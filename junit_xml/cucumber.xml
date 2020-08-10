@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="50.103394">
+<testcase classname="Login Application" name="Login Test functionality with valid username and password Credentials" time="7.68003">
+<system-out><![CDATA[Given the user navigates to loginPage.......................................passed
+When the user enters username "Valid" and password "Valid"..................passed
+And the user clicks on login button.........................................passed
+Then the user able to see login message "You logged into a secure area!"....passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Application" name="Login Test functionality with valid username and password Credentials 2" time="6.749073">
+<system-out><![CDATA[Given the user navigates to loginPage.......................................passed
+When the user enters username "Valid" and password "Invalid"................passed
+And the user clicks on login button.........................................passed
+Then the user able to see login message "Your password is invalid!".........passed
+]]></system-out>
+</testcase>
+<testcase classname="Forgot Password" name="Retrive ForgotPassword" time="7.113679">
+<system-out><![CDATA[Given user navigates to ForgotPassword page.................................passed
+When the user enters emailid................................................passed
+And clicks on Retrive password button.......................................passed
+Then the user will capture the message......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="DeepDOM feature" name="Selection of rows" time="9.449686">
+<system-out><![CDATA[Given user enters in to DeepDOM page........................................passed
+Then the user selects "Sibilings"...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="DeepDOM feature" name="Selection of rows 2" time="9.517196">
+<system-out><![CDATA[Given user enters in to DeepDOM page........................................passed
+Then the user selects "1.3".................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="DeepDOM feature" name="Selection of rows 3" time="9.59373">
+<system-out><![CDATA[Given user enters in to DeepDOM page........................................passed
+Then the user selects "13.2"................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
